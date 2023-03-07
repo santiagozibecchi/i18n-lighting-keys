@@ -15,18 +15,32 @@
   "contributes": {
     "commands": [
       {
-        "command": "i18nextLightingKeys.marking",
-        "title": "Sombrear claves de i18n HTML"
-      },
-      {
         "command": "i18nextLightingKeys.markingTS",
-        "title": "Sombrear strings en TypeScript"
+        "title": "Inicializar extensión y SOMBREAR strings"
       },
       {
         "command": "i18nextLightingKeys.selectKeys",
         "title": "Seleccionar todo para copiar"
+      },
+      {
+        "command": "i18nextLightingKeys.disableShading",
+        "title": "Desactivar sombreado"
+      },
+      {
+        "command": "i18nextLightingKeys.enableShading",
+        "title": "Activar sombreado en TypeScript"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Desactivar sombreado",
+      "properties": {
+        "i18nextLightingKeys.disableShading": {
+          "type": "boolean",
+          "default": false,
+          "description": "Desactivar sombreado de TypeScript"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
