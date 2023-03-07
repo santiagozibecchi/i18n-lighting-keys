@@ -6,7 +6,7 @@
   "engines": {
     "vscode": "^1.76.0"
   },
-  "publisher": "Santiago-Zibecchi",
+  "publisher": "santiago-zibecchi",
   "categories": [
     "Other"
   ],
@@ -16,11 +16,15 @@
     "commands": [
       {
         "command": "i18nextLightingKeys.marking",
-        "title": "Marcar claves de i18n"
+        "title": "Sombrear claves de i18n HTML"
+      },
+      {
+        "command": "i18nextLightingKeys.markingTS",
+        "title": "Sombrear strings en TypeScript"
       },
       {
         "command": "i18nextLightingKeys.selectKeys",
-        "title": "Seleccionar claves de i18n"
+        "title": "Seleccionar todo para copiar"
       }
     ]
   },
