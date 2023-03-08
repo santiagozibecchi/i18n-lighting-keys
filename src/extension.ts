@@ -4,13 +4,13 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "i18nextLightingKeys" is now active!');
 
 	const decorationType = vscode.window.createTextEditorDecorationType({
-		backgroundColor: "#1c1c1c",
-		color: "#ffcc00",
-		fontWeight: "bold",
-		borderWidth: "1px",
+		backgroundColor: "rgba(28, 28, 28, 0.5)",
+		// color: "#f7e80a",
+		color: "#f7eb0a",
+		// fontWeight: "bold",
 		borderColor: "#666666",
 		borderRadius: "4px",
-		opacity: "0.85",
+		// opacity: "0.95",
 		overviewRulerColor: "#ffcc00",
 		overviewRulerLane: vscode.OverviewRulerLane.Left
 	});
